@@ -1,0 +1,84 @@
+{
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"editor.suggestSelection": "first",
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"sync.gist": "8b73bf6d2429e95c47178f95c73982bc",
+	"workbench.sideBar.location": "right",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"vsicons.dontShowNewVersionMessage": true,
+	"prettier.resolveGlobalModules": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.printWidth": 120,
+	"git.autofetch": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"liveServer.settings.donotShowInfoMsg": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"workbench.colorCustomizations": {
+		"terminal.foreground": "#B9B5B8",
+		"terminalCursor.background": "#B9B5B8",
+		"terminalCursor.foreground": "#B9B5B8",
+		"terminal.ansiBlack": "#322931",
+		"terminal.ansiBlue": "#1290BF",
+		"terminal.ansiBrightBlack": "#797379",
+		"terminal.ansiBrightBlue": "#1290BF",
+		"terminal.ansiBrightCyan": "#149B93",
+		"terminal.ansiBrightGreen": "#8FC13E",
+		"terminal.ansiBrightMagenta": "#C85E7C",
+		"terminal.ansiBrightRed": "#DD464C",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#FDCC59",
+		"terminal.ansiCyan": "#149B93",
+		"terminal.ansiGreen": "#8FC13E",
+		"terminal.ansiMagenta": "#C85E7C",
+		"terminal.ansiRed": "#DD464C",
+		"terminal.ansiWhite": "#B9B5B8",
+		"terminal.ansiYellow": "#FDCC59"
+	},
+	"terminal.integrated.shell.osx": "/bin/zsh",
+	"terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+	"editor.renameOnType": true,
+	"sync.autoUpload": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"files.trimTrailingWhitespace": true,
+	"notebook.kernelProviderAssociations": [],
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		},
+		{
+			"extensionName": ".min.css",
+			"format": "compressed",
+			"savePath": "/dist/css"
+		}
+	],
+	"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+	"liveSassCompile.settings.generateMap": true,
+	"liveSassCompile.settings.autoprefix": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.format.semicolons": "remove",
+	"prettier.semi": false,
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.format.enable": false,
+	"editor.minimap.enabled": false
+}
