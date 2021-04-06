@@ -2,7 +2,6 @@
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.formatOnPaste": true,
 	"editor.suggestSelection": "first",
-	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"[javascript]": {
@@ -13,18 +12,18 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"workbench.startupEditor": "newUntitledFile",
+	"workbench.startupEditor": "none",
+	"window.restoreWindows": "all",
 	"vsicons.dontShowNewVersionMessage": true,
 	"prettier.resolveGlobalModules": true,
-	"editor.formatOnSave": true,
 	"prettier.singleQuote": true,
 	"prettier.printWidth": 120,
+	"prettier.tabWidth": 2,
 	"git.autofetch": true,
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "helium-icon-theme",
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"liveServer.settings.donotShowInfoMsg": true,
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
@@ -50,35 +49,43 @@
 		"terminal.ansiYellow": "#FDCC59"
 	},
 	"terminal.integrated.shell.osx": "/bin/zsh",
-	"terminal.integrated.fontFamily": "Meslo LG M for Powerline",
-	"editor.renameOnType": true,
+	// "terminal.integrated.fontFamily": "Meslo  M for Powerline",
+	"window.title": "${activeEditorShort}${separator}${rootPath}${rootName}",
+	"editor.linkedEditing": true,
 	"sync.autoUpload": true,
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"files.trimTrailingWhitespace": true,
 	"notebook.kernelProviderAssociations": [],
-	"liveSassCompile.settings.formats": [
-		{
-			"format": "expanded",
-			"extensionName": ".css",
-			"savePath": "/css"
-		},
-		{
-			"extensionName": ".min.css",
-			"format": "compressed",
-			"savePath": "/dist/css"
-		}
-	],
-	"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-	"liveSassCompile.settings.generateMap": true,
-	"liveSassCompile.settings.autoprefix": [
-		"> 1%",
-		"last 2 versions"
-	],
 	"typescript.preferences.quoteStyle": "single",
 	"typescript.format.semicolons": "remove",
-	"prettier.semi": false,
 	"javascript.preferences.quoteStyle": "single",
 	"typescript.format.enable": false,
-	"editor.minimap.enabled": false
+	"editor.minimap.enabled": true,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 4500,
+	"javascript.format.semicolons": "remove",
+	"editor.fontFamily": "Fira Code",
+	"prettier.semi": false,
+	"yaml.schemas": {
+		"file:///Users/armanzhumanov/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"atlascode.jira.enabled": true,
+	"atlascode.bitbucket.enabled": false,
+	"atlascode.jira.jqlList": [
+		{
+			"id": "ce81efff-616c-4955-a757-176a4b8ccbd3",
+			"enabled": true,
+			"name": "My 192.168.168.27:8080 Issues",
+			"query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+			"siteId": "192.168.168.27:8080",
+			"monitor": true
+		}
+	],
+	"editor.formatOnSave": true,
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "GitHub Dark",
 }
+
